@@ -82,5 +82,3 @@ elif a > b:
     print("You win!")
 else:
     print("Type a valid number or you lose")
-
-

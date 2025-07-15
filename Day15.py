@@ -116,6 +116,8 @@ resources = {
     "coffee": 100,
 }
 
+# Checking to see it the resource runs out
+# Try to change it to make it refillable(if possible)
 
 def is_resource_sufficient(order_ingredients):
     """Returns True when order can be made, False if ingredients are insufficient."""
