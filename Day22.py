@@ -27,6 +27,7 @@ while not scoreboard.game_over:
     time.sleep(ball.move_speed)
     screen.update()
     ball.move()
+    scoreboard.center_()
 
     if ball.ycor() > 280 or ball.ycor() < -280:
         ball.bounce_y()
